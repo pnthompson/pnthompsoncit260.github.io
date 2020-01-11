@@ -7,13 +7,13 @@ header,
 nav,
 main,
 footer {
-    font-size: 25px;
     margin: 1.25rem auto;
     max-width: 760px;
 }
 
 header,
 footer {
+    font-size: 25px;
     background-color: #01abf0;
     color: whitesmoke;
     text-align: center;
@@ -28,4 +28,8 @@ footer {
     max-width: 200px;
     border-radius: 10px;
     box-shadow: 8px 8px 9px 9px #888888;
+}
+
+.modified {
+    color: yellow;
 }
