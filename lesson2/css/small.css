@@ -1,0 +1,33 @@
+    main {
+        padding: 1rem 2%;
+        grid-template-columns: 1fr;
+        grid-column-gap: 0.5em;
+        justify-items: center;
+    }
+    
+    header,
+    footer,
+    body {
+        background-color: cornflowerblue;
+        text-align: center;
+        color: #eee;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    h1 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    .column {
+        margin: 10px;
+        padding: 25px;
+    }
+    
+    div :nth-child(2) {
+        display: block;
+    }
+    
+    p {
+        display: block;
+        text-align: center;
+    }
