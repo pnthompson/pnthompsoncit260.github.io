@@ -1,0 +1,23 @@
+@media only screen and (min-width: 32.5em) {
+    body {
+        font-size: .5rem;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+    #profile {
+        max-width: 200px;
+        float: right;
+        margin-top: -43px;
+        box-shadow: 8px 8px 9px 9px #888888;
+    }
+    footer {
+        font-size: 1rem;
+    }
+}

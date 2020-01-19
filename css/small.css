@@ -1,0 +1,59 @@
+    body {
+        font-size: .5rem;
+        line-height: 1.5;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+    }
+    
+    h2 {
+        font-size: 1rem;
+    }
+    
+    h3 {
+        font-size: .75rem;
+    }
+    
+    header,
+    main {
+        margin: 1.2rem auto;
+        max-width: 760px;
+        font-family: 'Permanent Marker', cursive;
+    }
+    
+    nav,
+    footer {
+        margin: 1.2rem auto;
+        max-width: 760px;
+        font-family: 'Cairo', sans-serif;
+    }
+    
+    header,
+    footer {
+        background-color: #01abf0;
+        color: whitesmoke;
+        text-align: center;
+        padding: 0.5rem;
+        border-radius: 15px;
+        font-style: italic;
+    }
+    
+    #profile {
+        max-width: 100px;
+        border-radius: 10px;
+        align-items: center;
+    }
+    
+    .modified {
+        color: yellow;
+    }
+    
+    header {
+        font-size: 25px;
+    }
+    
+    .modified,
+    footer {
+        font-size: .5rem;
+    }
