@@ -16,7 +16,7 @@ body {
 /* header rules here */
 
 header {
-    background-color: #13e47b;
+    background-color: #e9eb75;
     padding: 1rem 2%;
 }
 
@@ -90,7 +90,7 @@ main figcaption {
 footer {
     text-align: center;
     padding: 1rem 2%;
-    background-color: #19a8e4;
+    background-color: #e9eb75;
 }
 
 .clearfix:after {
