@@ -36,3 +36,11 @@
         text-align: center;
         color: blue;
     }
+    
+    img {
+        max-width: 100%;
+        margin-top: 10px;
+        display: block;
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        border-radius: 10px;
+    }
