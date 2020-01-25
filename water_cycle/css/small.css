@@ -27,7 +27,7 @@ body {
 
 header {
     padding: .5rem 2%;
-    background-color: #ddd;
+    background-color: #d9faff;
 }
 
 header img {
@@ -51,7 +51,7 @@ header h2 {
 /*----------- NAVIGATION --------------*/
 
 nav {
-    background-color: #666;
+    background-color: #00bbf0;
 }
 
 nav ul {
@@ -70,12 +70,12 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #aaa;
-    color: #333;
+    background-color: #fe675c;
+    color: #eee;
 }
 
 nav ul li.active a {
-    background-color: #000;
+    background-color: #00204a;
     color: #fff;
 }
 
@@ -91,9 +91,10 @@ main {
 /*----------- FOOTER --------------*/
 
 footer {
-    background-color: #ddd;
+    background-color: #00bbf0;
     padding: .5rem 2%;
     text-align: center;
+    color: #fff;
 }
 
 
