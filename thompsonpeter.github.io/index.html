@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<h1>What is JSON?</h1>
+<ul>
+    <li>JavaScript Object Notation</li>
+    <li>Way to transfer data</li>
+    <li>Based on JavaScript (similar to JavaScript object syntax)</li>
+</ul>
+<h2>What Data types can you use?</h2>
+<ul>
+    <li>Numbers (including decimals)</li>
+    <li>String (Use double not single quotes)</li>
+    <li>Boolean</li>
+    <li>Arrays</li>
+    <li>Object (Unordered key/value pairs)</li>
+</ul>
+
+<head>
+    <meta charset="utf-8">
+    <title>JSON demo</title>
+</head>
+
+<body>
+
+    <script>
+        var pets = {
+            name: "Duke",
+            age: 7,
+            breed: "Mastiff"
+
+
+        }
+
+        pets = JSON.stringify(pets);
+        pets = JSON.parse(pets)
+
+        console.log(pets);
+    </script>
+</body>
+
+</html>
