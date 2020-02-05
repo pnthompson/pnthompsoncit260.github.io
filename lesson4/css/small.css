@@ -58,16 +58,16 @@ div#navWrapper {
 }
 
 nav {
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#00bbf0+0,0025f9+100 */
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#00bbf0+0,0076f4+100 */
     background: #00bbf0;
     /* Old browsers */
-    background: -moz-linear-gradient(top, #00bbf0 0%, #0025f9 100%);
+    background: -moz-linear-gradient(top, #00bbf0 0%, #0076f4 100%);
     /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #00bbf0 0%, #0025f9 100%);
+    background: -webkit-linear-gradient(top, #00bbf0 0%, #0076f4 100%);
     /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #00bbf0 0%, #0025f9 100%);
+    background: linear-gradient(to bottom, #00bbf0 0%, #0076f4 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00bbf0', endColorstr='#0025f9', GradientType=0);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00bbf0', endColorstr='#0076f4', GradientType=0);
     /* IE6-9 */
 }
 
