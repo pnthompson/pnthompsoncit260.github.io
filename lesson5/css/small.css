@@ -96,7 +96,7 @@ nav ul li a {
 }
 
 nav ul li.active a {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: #ff5611;
     color: #fff;
 }
 
@@ -115,6 +115,16 @@ nav ul.hide {
 div main {
     padding: 0 2%;
     min-height: 10rem;
+}
+
+section.forecast {
+    display: none;
+}
+
+section.article {
+    border: 1px solid #aaa;
+    margin: 0;
+    padding: 1rem 0;
 }
 
 
