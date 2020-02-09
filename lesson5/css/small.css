@@ -117,6 +117,36 @@ div main {
     min-height: 10rem;
 }
 
+.heroholder {
+    margin: 10px auto;
+    background-color: #eee;
+    border: 1px solid #333;
+    width: 100%;
+    height: auto;
+}
+
+.herodiv {
+    margin: 10px auto;
+    position: relative;
+    width: 100%;
+    height: autoS;
+}
+
+.herodiv img {
+    width: 100%;
+    height: auto;
+}
+
+.weathersummary {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    background: radial-gradient(#a0c9f3, #d8f2fa);
+    border: 1px #ff5611;
+    padding: .5rem;
+    box-shadow: 0 0 30px #00bbf0;
+}
+
 section.forecast {
     display: none;
 }
