@@ -112,22 +112,15 @@ nav ul.hide {
 
 /*----------- MAIN --------------*/
 
-div .article {
-    margin: 10px auto;
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.article img {
+section.article img {
     float: right;
     padding: 0 2%;
-    margin: auto;
     top: 10px;
 }
 
 .article p {
     text-align: justify;
+    padding: 0 2%;
 }
 
 div main {
@@ -179,12 +172,27 @@ div.hideme {
 
 section.forecast {
     display: none;
+    padding: 20px;
+    margin: auto;
 }
 
 section.article {
     border: 1px solid #aaa;
     margin: 0;
     padding: 1rem 0;
+    text-align: justify;
+}
+
+.hotspring {
+    border-radius: 20px;
+}
+
+.contact p {
+    text-align: right;
+}
+
+.contact img {
+    width: 500px;
 }
 
 
