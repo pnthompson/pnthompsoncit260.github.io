@@ -112,6 +112,24 @@ nav ul.hide {
 
 /*----------- MAIN --------------*/
 
+div .article {
+    margin: 10px auto;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.article img {
+    float: right;
+    padding: 0 2%;
+    margin: auto;
+    top: 10px;
+}
+
+.article p {
+    text-align: justify;
+}
+
 div main {
     padding: 0 2%;
     min-height: 10rem;
@@ -141,7 +159,7 @@ div.hideme {
     margin: 10px auto;
     position: relative;
     width: 100%;
-    height: autoS;
+    height: auto;
 }
 
 .herodiv img {
