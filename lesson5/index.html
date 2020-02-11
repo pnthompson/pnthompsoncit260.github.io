@@ -43,8 +43,8 @@
         <nav class="clearfix">
             <button onclick="toggleMenu()">&#9776;</button>
             <ul class="hide" id="primaryNav">
-                <li><a href="#">Home</a></li>
-                <li class="active"><a href="preston.html">Preston</a></li class="active">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="preston.html">Preston</a></li>
                 <li><a href="#">Soda Springs</a></li>
                 <li><a href="#">Fish Haven</a></li>
                 <li><a href="#">Storm Center</a></li>
@@ -55,7 +55,8 @@
 
     <!-- CONTENT HERE -->
     <main>
-        <h1>Preston</h1>
+        <div id="message" class="showme">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</div>
+        <h1>Home</h1>
 
 
 
@@ -66,6 +67,21 @@
         <footer>
             &copy; 2020 &bull; Peter Thompson
         </footer>
+        <script>
+            const today = new Date();
+            console.log(today);
+
+            const dayNumber = today.getDay();
+            console.log(dayNumber);
+
+            const element = document.getElementById("message");
+
+            if (dayNumber == 5) {
+                element.classList.add("showme");
+            } else {
+                element.classList.add("hideme");
+            }
+        </script>
     </div>
 </body>
 
