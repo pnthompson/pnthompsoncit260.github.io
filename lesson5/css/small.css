@@ -229,6 +229,7 @@ section.article {
 }
 
 .contact img {
+    display: none;
     width: 340px;
     margin: auto;
 }
