@@ -129,6 +129,14 @@ div main {
     min-height: 10rem;
 }
 
+main h1 {
+    text-align: center;
+}
+
+main h2 {
+    text-align: center;
+}
+
 div#message {
     background-color: yellow;
 }
@@ -171,6 +179,10 @@ div.hideme {
     box-shadow: 0 0 30px #00bbf0;
 }
 
+section.forecasth2 {
+    display: none;
+}
+
 section.forecast {
     display: none;
     padding: 20px;
@@ -188,14 +200,32 @@ section.article {
     border-radius: 20px;
 }
 
+.contact {
+    column-count: 3;
+    padding: 20px;
+    margin: auto;
+}
+
+.contact h3 {
+    text-emphasis: bold;
+}
+
+.contact ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
 .contact p {
     margin: 0;
     padding: 0 2%;
-    text-align: right;
+    text-align: center;
 }
 
 .contact img {
-    width: 500px;
+    width: 340px;
+    margin: auto;
 }
 
 
