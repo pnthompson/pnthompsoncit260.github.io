@@ -206,6 +206,11 @@ section.article {
     margin: auto;
 }
 
+.contact p h2 {
+    text-align: center;
+    column-span: all;
+}
+
 .contact h3 {
     text-emphasis: bold;
 }
