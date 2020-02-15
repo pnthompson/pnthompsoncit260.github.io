@@ -211,10 +211,6 @@ section.article {
     column-span: all;
 }
 
-.contact h3 {
-    text-emphasis: bold;
-}
-
 .contact ul {
     list-style-type: none;
     text-align: center;
