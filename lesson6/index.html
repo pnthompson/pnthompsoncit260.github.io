@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Fill Me In">
+    <meta name="author" content="John Doe">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Passion+One|Shadows+Into+Light&display=swap" rel="stylesheet">
+    <!-- This start file was build by Paul Cheney  -->
+    <title>WeatherKnower: Be in the KNOW</title>
+
+    <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+
+    <!-- STYLE SHEETS -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <!-- phone-default -->
+    <link href="css/small.css" rel="stylesheet">
+    <!-- enhance-tablet -->
+    <link href="css/medium.css" rel="stylesheet">
+    <!-- enhance-desktop -->
+    <link href="css/large.css" rel="stylesheet">
+
+    <script type="text/javascript" src="js/responsiveMenu.js" defer></script>
+
+</head>
+
+<body>
+    <!-- HEADER HERE -->
+    <div id="headerWrapper">
+        <header class="clearfix">
+            <img src="images/logo.png" alt="logo">
+            <h1>WeatherKnower</h1>
+            <h2>Be in the KNOW</h2>
+        </header>
+    </div>
+
+    <!-- NAVIGATION HERE -->
+    <div id="navWrapper">
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul class="hide" id="primaryNav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="preston.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- CONTENT HERE -->
+    <main>
+        <div id="message" class="showme">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</div>
+        <h1>Home</h1>
+        <p>Welcome to Weather Knower... now your in the know. </p>
+
+
+    </main>
+
+    <!-- FOOTER HERE -->
+    <div id="footerWrapper">
+        <footer>
+            &copy; 2020 &bull; Peter Thompson
+        </footer>
+        <script>
+            const today = new Date();
+            console.log(today);
+
+            const dayNumber = today.getDay();
+            console.log(dayNumber);
+
+            const element = document.getElementById("message");
+
+            if (dayNumber == 5) {
+                element.classList.add("showme");
+            } else {
+                element.classList.add("hideme");
+            }
+        </script>
+    </div>
+</body>
+
+</html>
