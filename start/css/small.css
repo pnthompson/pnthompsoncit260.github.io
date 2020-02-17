@@ -110,7 +110,14 @@ main figure.myphoto figcaption {
     font-size: .75rem;
 }
 
+picture.photoA {
+    display: block;
+    width: 96%;
+    margin: 0 2%;
+}
 
+main picture.photoA img,
+main picture.
 /*----------- FOOTER --------------*/
 
 footer {
