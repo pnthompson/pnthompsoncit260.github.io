@@ -26,9 +26,10 @@
         border: 1px solid #aaa;
     }
     section.forecast div h5 {
-        background-color: #eee;
+        background-color: #004d98;
         margin: 0;
         padding: 1rem 0;
+        color: #eee;
     }
     .contact img {
         display: inline;
