@@ -1,0 +1,23 @@
+/*---------lazy loader----------*/
+
+body {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+picture img[data-src] {
+    filter: blur(0.3em);
+}
+
+picture img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+    border: 2px solid blue;
+    margin: 2px;
+    min-width: 200px;
+}
+
+h1 {
+    text-align: center;
+}
