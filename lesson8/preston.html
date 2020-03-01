@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Fill Me In">
+    <meta name="author" content="John Doe">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Passion+One|Shadows+Into+Light&display=swap" rel="stylesheet">
+    <!-- This start file was build by Paul Cheney  -->
+    <title>WeatherKnower: Be in the know</title>
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+    <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+
+    <!-- STYLE SHEETS -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <!-- phone-default -->
+    <link href="css/small.css" rel="stylesheet">
+    <!-- enhance-tablet -->
+    <link href="css/medium.css" rel="stylesheet">
+    <!-- enhance-desktop -->
+    <link href="css/large.css" rel="stylesheet">
+
+    <script type="text/javascript" src="js/responsiveMenu.js" defer></script>
+
+</head>
+
+<body>
+    <!-- HEADER HERE -->
+    <div id="headerWrapper">
+        <header class="clearfix">
+            <img src="images/logo.png" alt="logo">
+            <h1>WeatherKnower</h1>
+            <h2>Be in the know</h2>
+        </header>
+    </div>
+
+    <!-- NAVIGATION HERE -->
+    <div id="navWrapper">
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="preston.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- CONTENT HERE -->
+    <main>
+        <div id="message" class="showme">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</div>
+        <h1>Preston</h1>
+        <div class="herodiv">
+            <div class="heroholder">
+                <picture class="photoA">
+                    <source media="(max-width: 200px)" srcset="images/franklin200.png">
+                    <source media="(max-width: 500px)" srcset="images/franklin500.png">
+                    <source media="(max-width: 800px)" srcset="images/franklin800.png">
+                    <img src="images/franklin1100.png" alt="preston picture">
+            </div>
+            <section class="weathersummary">
+                <h3>Weather Summary</h3>
+                <p>Temperature: <span id="temp">36</span>&deg;</p>
+                <p>Precipitation: 0 in.</p>
+                <p>Wind Speed: <span id="speed">30</span> mph</p>
+                <p id="chill">message</p>
+            </section>
+        </div>
+        <!-- 5 day forecast grid -->
+        <section class="forecasth2">
+            <h2>Five Day Forecast</h2>
+        </section>
+        <section class="forecast">
+
+            <div>
+                <h5>Monday</h5>
+                <img src="images/sunny.png" alt="sunny">
+                <p>43&deg;</p>
+            </div>
+            <div>
+                <h5>Tuesday</h5>
+                <img src="images/sunny.png" alt="sunny">
+                <p>40&deg;</p>
+            </div>
+            <div>
+                <h5>Wednesday</h5>
+                <img src="images/sunny.png" alt="sunny">
+                <p>53&deg;</p>
+            </div>
+            <div>
+                <h5>Thursday</h5>
+                <img src="images/sunny.png" alt="sunny">
+                <p>49&deg;</p>
+            </div>
+            <div>
+                <h5>Friday</h5>
+                <img src="images/sunny.png" alt="sunny">
+                <p>48&deg;</p>
+            </div>
+            <!--Article section-->
+        </section>
+        <section class="article">
+            <div>
+                <h2>A home town like no other...</h2>
+                <p>
+                    <img class="hotspring" src="images/hotsprings1.png" alt="hotsprings"> Preston Idaho isn't just about Napoleon Dynamite or taking your bike off of "Sweet Jumps." There is a lot of very interesting history in and around the Preston Idaho
+                    area. One of the biggest attractions to this area is the several natural Hotsprings. People have come from all over to experience the naturally heated pools, loaded with minerals that supposedly help what ails your aches and pains.
+                    If that isn't your thing, Try the Preston Rodeo, which is one of the biggest in this part of the Country. The Preston Rodeo draws cowfolk from all over the world to compete in various events. During Christmas downtown Preston is a
+                    glow with lights. They even have a park that is completely covered in lights. It has easy driving access so you don't even need to leave the comfort of your vehicle to enjoy the season. FUN fact Preston is even home to a burger king
+                    that is said to be owned by the Utah Jazz NBA legend Karl Malone. It's said that He bought a few of the restaurants, the Preston Burger King is just one of them. There is far more to Preston than just a small town in Mid Western United
+                    States, It is a Gem in the Gem State, a real treasure. There are endless outdooor activities that can be enjoyed in this small little town. So stop by, partake in the wonder that is Preston, Who knows? you may even say its pretty "flippin
+                    sweet"
+
+                </p>
+            </div>
+            <!--Contact info and Map-->
+        </section>
+        <section class="contact">
+            <div class="column">
+
+                <h2>Contact Us</h2>
+                <br>
+
+                <ul>
+                    <li>
+                        <h3>Address:</h3>
+                    </li>
+                    <li><a>WeatherKnower</a></li>
+                    <li><a>16 North HWY 81</a></li>
+                    <li><a>Preston, Idaho, 83686</a></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li>
+                        <h3>Phone:</h3>
+                    </li>
+                    <li>(208) 555-5555</li>
+
+                    <li>
+                        <h3>Email:</h3>
+
+                    </li>
+                    <li><a>weatherknower@weather.com</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <ul>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="column">
+                <img src="images/prestonmap.png" alt="map of preston">
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER HERE -->
+    <div id="footerWrapper">
+        <footer>
+            &copy; 2020 &bull; Peter Thompson
+        </footer>
+        <script>
+            const today = new Date();
+            console.log(today);
+
+            const dayNumber = today.getDay();
+            console.log(dayNumber);
+
+            const element = document.getElementById("message");
+
+            if (dayNumber == 5) {
+                element.classList.add("showme");
+            } else {
+                element.classList.add("hideme");
+            }
+        </script>
+        <script>
+            const tempNumber = parseFloat(document.getElementById("temp").textContent);
+            console.log(tempNumber);
+
+            const speedNumber = parseFloat(document.getElementById("speed").textContent);
+            console.log(speedNumber);
+
+            let windchill = 35.74 + (0.6215 * tempNumber) - (35.75 * Math.pow(speedNumber, 0.16)) + (0.4275 * tempNumber * Math.pow(speedNumber, 0.16));
+            console.log(windchill);
+            windchill = Math.round(windchill);
+            console.log(windchill);
+
+            if (tempNumber <= 50 && speedNumber > 3) {
+                document.getElementById("chill").textContent = "Wind Chill is " + windchill + "\xB0F";
+            } else {
+                document.getElementById("chill").textContent = "No Wind Chill Today";
+            }
+        </script>
+    </div>
+</body>
+
+</html>

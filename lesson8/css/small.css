@@ -1,0 +1,251 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+
+/*----------- apply a natural box layout model to all elements --------------*/
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/*----------- BODY --------------*/
+
+body {
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    background-color: rgb(228, 251, 255);
+}
+
+
+/*----------- HEADER --------------*/
+
+div#headerWrapper {
+    background-color: #d9faff;
+}
+
+header {
+    padding: .5rem 2%;
+}
+
+header img {
+    float: left;
+    margin-right: 10px;
+    width: 50px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+header h2 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+
+/*----------- NAVIGATION --------------*/
+
+div#navWrapper {
+    background-color: #00bbf0;
+}
+
+nav {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#00bbf0+0,52a2f2+100 */
+    background: #00bbf0;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #00bbf0 0%, #52a2f2 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #00bbf0 0%, #52a2f2 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #00bbf0 0%, #52a2f2 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00bbf0', endColorstr='#52a2f2', GradientType=0);
+    /* IE6-9 */
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #eee;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: #eee;
+    padding: .8rem 2%;
+    text-decoration: none;
+    font-size: .9rem;
+    text-align: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+nav ul li.active a {
+    background-color: #ff5611;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #eee;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+
+/*----------- MAIN --------------*/
+
+section.article img {
+    float: right;
+    padding: 0 2%;
+    top: 10px;
+}
+
+.article p {
+    text-align: justify;
+    padding: 0 2%;
+}
+
+div main {
+    padding: 0 2%;
+    min-height: 10rem;
+}
+
+main h1 {
+    text-align: center;
+}
+
+main h2 {
+    text-align: center;
+}
+
+div#message {
+    background-color: yellow;
+}
+
+div.showme {
+    display: block;
+}
+
+div.hideme {
+    display: none;
+}
+
+.heroholder {
+    margin: 10px auto;
+    width: 100%;
+    height: auto;
+}
+
+.herodiv {
+    margin: 10px auto;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.herodiv img {
+    width: 100%;
+    height: auto;
+}
+
+.weathersummary {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    background: radial-gradient(#a0c9f3, #d8f2fa);
+    border: 1px #ff5611;
+    padding: .5rem;
+    box-shadow: 0 0 30px #00bbf0;
+}
+
+section.forecasth2 {
+    display: none;
+}
+
+section.forecast {
+    display: none;
+    padding: 20px;
+    margin: auto;
+}
+
+section.article {
+    border: 1px solid #aaa;
+    margin: 0;
+    padding: 1rem 0;
+    text-align: justify;
+}
+
+.hotspring {
+    border-radius: 20px;
+}
+
+.contact {
+    column-count: 3;
+    padding: 20px;
+    margin: auto;
+}
+
+.contact p h2 {
+    text-align: center;
+    column-span: all;
+}
+
+.contact ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.contact p {
+    margin: 0;
+    padding: 0 2%;
+    text-align: center;
+}
+
+.contact img {
+    display: none;
+    width: 340px;
+    margin: auto;
+}
+
+
+/*----------- FOOTER --------------*/
+
+div#footerWrapper {
+    background-color: #00bbf0;
+}
+
+footer {
+    padding: .5rem 2%;
+    text-align: center;
+    color: #fff;
+}
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
