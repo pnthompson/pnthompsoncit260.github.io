@@ -1,0 +1,51 @@
+body {
+    font-family: 'Ubuntu', bold;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    font-size: 1.2rem;
+    background-color: #e7ffed;
+    width: 400px;
+    box-shadow: 8px 13px 20px #628ca6;
+}
+
+td,
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 13px 20px;
+}
+
+th,
+tfoot td {
+    background-color: #7fb9c2;
+}
+
+thead th {
+    font-size: 1.8rem;
+}
+
+tbody th {
+    background-color: #628ca6;
+    color: white;
+    font-weight: 1000;
+}
+
+td,
+tr {
+    text-align: center;
+}
+
+tr:nth-child(even) td {
+    background-color: #e7f0ed;
+}
+
+caption {
+    padding: 8px;
+}
+
+.difcolor {
+    background-color: #628ca6;
+    color: white;
+}
