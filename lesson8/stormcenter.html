@@ -60,17 +60,34 @@
         <p>Welcome to Weather Knower... now your in the know. </p>
         <form method="get" action="thanks.html">
             <fieldset>
-                <legend>Applicant Infromation</legend>
+                <legend>Storm Reporters Information</legend>
                 <label class="top">First Name* <input type="text" name="fname" required></label>
                 <label class="top">Last Name* <input type="text" name="lname" required></label>
-                <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234"></label>
-                <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-                <label class="top">Website <input type="url" name="url" placeholder="http://"></label>
+                <label class="top">Zip Code* <input type="text" name="zipcode" required></label>
+                <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234"></label>
+                <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
+
             </fieldset>
 
             <fieldset>
-                <legend>Course Information</legend>
-                <div>Audience</div>
+                <legend>Storm</legend>
+                <div>Information</div>
+                <label class="top">Storm Date <input type="date" name="stormDate"> </label>
+                <label class="top">Storm Type
+                    <select name="subject">
+                        <option value="">Please Select &#9662;</option>
+                    <option value="flashflood">Flash Flood</option>
+                    <option value="hail">Hail</option>
+                    <option value="hurricane">Hurricane</option>
+                    <option value="thunderstorm">Thunderstorm</option>
+                    <option value="tornado">Tornado</option>
+                    </select>
+                    <label class="flexly" for="rating">Rating: &nbsp;&nbsp;&nbsp;
+                        <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
+                            oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                        <span id="ratingvalue">5</span>
+                    </label>
+
                 <label class="sbs"><input type="radio" name="audience" value="beginner"> Beginner</label>
                 <label class="sbs"><input type="radio" name="audience" value="intermediate"> Intermediate</label>
                 <label class="sbs"><input type="radio" name="audience" value="advanced"> Advanced</label>
@@ -102,7 +119,7 @@
 
             </fieldset>
 
-            <input type="submit" value="Propose My Course" class="submitBtn">
+            <input type="submit" value="Report Storm" class="submitBtn">
 
         </form>
 
